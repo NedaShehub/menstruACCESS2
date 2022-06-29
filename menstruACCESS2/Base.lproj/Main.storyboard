@@ -167,15 +167,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ozJ-Ou-awZ">
-                                <rect key="frame" x="87" y="173" width="240" height="373"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://period.org/" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ozJ-Ou-awZ">
+                                <rect key="frame" x="132" y="173" width="150" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">https://period.org/ https://www.plannedparenthood.org 
-https://www.nichd.nih.gov/health/topics/menstruation 
-https://allianceforperiodsupplies.org/ 
-https://www.pandiahealth.com/the-true-cost-of-your-period/
-https://www.omnicalculator.com/everyday-life/period-products-cost</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -188,6 +183,20 @@ https://www.omnicalculator.com/everyday-life/period-products-cost</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="https://www.plannedparenthood.org" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H0a-8q-Moe">
+                                <rect key="frame" x="65" y="236" width="285" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="https://www.nichd.nih.gov/health/topics/menstruation" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="amK-Up-azA">
+                                <rect key="frame" x="53" y="296" width="308" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BnA-px-Zsh"/>
                         <color key="backgroundColor" red="0.97647058819999999" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
